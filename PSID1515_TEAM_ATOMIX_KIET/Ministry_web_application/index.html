@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+          <span class="material-icons-outlined">search</span>
+        </div>
+        <div class="header-right">
+          <span class="material-icons-outlined">notifications</span>
+          <span class="material-icons-outlined">email</span>
+          <span class="material-icons-outlined">account_circle</span>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            profile
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="./dashboard.html" target="_blank">
+              <span class="material-icons-outlined">dashboard</span> Dashboard
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="./offstreet.html" target="_blank">
+              <span class="material-icons-outlined">poll</span> off street
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="./residential.html" target="_blank">
+              <span class="material-icons-outlined">poll</span> residential
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="./commercial.html" target="_blank">
+              <span class="material-icons-outlined">poll</span> commercial parking
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">settings</span> Settings
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <!-- <section class="vh-100" style="background-color: #f4f5f7;width: 100vw;"> -->
+        <div class="container">
+
+          <div class="profile-card">
+              <div class="profile-header"><!-- profile header section -->
+                  <div class="main-profile">
+                      <div class="profile-image">
+                        <img src="./images/Screenshot 2023-11-30 234050.png" alt="" width="150px">
+                      </div>
+                      <div class="profile-names">
+                          <h1 class="username">Yash Jain</h1>
+                          <small class="page-title">Administrator</small>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="profile-body"><!-- profile body section -->
+                  <div class="profile-actions">
+                      <!-- <button class="follow">Follow</button> -->
+                      <!-- <button class="message">Message</button> -->
+                      <section class="bio">
+                          <div class="bio-header">
+                              <i class="fa fa-info-circle"></i>
+                              Head Office
+                          </div>
+                          <p class="bio-text">
+                              Head of Parking Administration 
+                              Dindigul 
+                              (Tamil Nadu)
+                              PIN:123456
+                          </p>
+                      </section>
+                  </div>
+  
+                  <div class="account-info">
+                      <div class="data">
+                          <div class="important-data">
+                              <section class="data-item">
+                                  <h3 class="value">Basic Details :</h3>
+                                  <small class="title">user id : admin@bharatpark
+                                    <br>
+                                    Password : ******hvu
+                                    <br>
+                                    Last accessed : 23/8/2023  8:14 pm
+                                    <br>
+                                    Corresponding address : Dindigul , Tamil Nadu 
+                                    <br>
+                                    AADHAR no. : 732987 380918
+                                  </small>
+                              </section>
+                              <!-- <section class="data-item">
+                                  <h3 class="value">21K</h3>
+                                  <small class="title">Follower</small>
+                              </section> -->
+                              </section>
+                              <!-- <section class="data-item">
+                                  <h3 class="value">51</h3>
+                                  <small class="title">Following</small>
+                              </section> -->
+                          </div>
+                          <div class="other-data">
+                              <section class="data-item">
+                                  <!-- <h3 class="value">41K</h3>
+                                  <small class="title">Likes</small> -->
+                              </section>
+                              <section class="data-item">
+                                  <!-- <h3 class="value">12K</h3>
+                                  <small class="title">Comments</small> -->
+                              </section>
+                              <section class="data-item">
+                                  <!-- <h3 class="value">2K</h3>
+                                  <small class="title">Saved</small> -->
+                              </section>
+                          </div>
+                      </div>
+  
+                      <div class="social-media">
+                          <span></span>
+                          
+                      </div>
+  
+                      <div class="last-post">
+                          <div class="post-cover">
+                              <span class="last-badge">Head Office</span>
+                          </div>
+                          <h3 class="post-title">Contact : admin.bharatpark@gmail.com</h3>
+                          <!-- <button class="post-CTA">View</button> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+      </div>
+      <!-- </section> -->
+      <!-- End Main -->
+
+    </div>
+
+    
+  </body>
+</html>
