@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558285605963",
+    "project_id": "parkwizauth-cfa38",
+    "storage_bucket": "parkwizauth-cfa38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558285605963:android:6fb00508fdd683759251ce",
+        "android_client_info": {
+          "package_name": "com.example.parkwizflutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-_FzBMgx5mP6HZKb9hHjtqbSpNkDPja0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
